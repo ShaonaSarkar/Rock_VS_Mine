@@ -1,43 +1,38 @@
-# Rock_VS_Mine
-Rock vs Mine Prediction using Logistic Regression
-This project is a Machine Learning model built with Logistic Regression to classify objects detected by a sonar signal as either a Rock (R) or a Mine (M).
+# Rock vs Mine Prediction using Logistic Regression  
 
-📌 Features
-Uses the Sonar dataset (UCI Machine Learning Repository).
-Preprocessing of data using Pandas & NumPy.
-Splitting dataset into training and testing sets.
-Model training with Logistic Regression (Scikit-Learn).
-Evaluation with accuracy score on both training and test data.
-A simple predictive system to test custom input values.
+This project is a **Machine Learning model** that predicts whether an object detected by a sonar signal is a **Rock (R)** or a **Mine (M)**. It is built using **Logistic Regression** and demonstrates how supervised learning can be applied in sonar-based object classification.  
 
-⚙️ Tech Stack
-Python
-NumPy
-Pandas
-Scikit-Learn
+The dataset used is the **Sonar Dataset** from the UCI Machine Learning Repository. It contains 208 samples with 60 numerical features, each representing the strength of a sonar signal at different frequencies. The target variable has two classes: **R (Rock)** and **M (Mine)**.  
 
-🚀 How It Works
+---
 
-Load the dataset (sonar_data.csv).
+## 📌 Project Workflow  
+1. **Data Preprocessing** – Load the dataset, explore statistics, and separate features & labels.  
+2. **Train-Test Split** – Divide the dataset into training and testing sets (90-10 split with stratification).  
+3. **Model Training** – Train a Logistic Regression model using Scikit-Learn.  
+4. **Evaluation** – Measure accuracy on both training and test data.  
+5. **Prediction System** – Input custom sonar readings and classify as **Rock** or **Mine**.  
 
-Preprocess and split into features & labels.
+---
 
-Train the Logistic Regression model.
+## ✨ Features  
+- End-to-end implementation of Logistic Regression.  
+- High accuracy on both training and test data.  
+- Interactive prediction system for real-time testing.  
+- Beginner-friendly ML workflow.  
 
-Evaluate performance on training & testing sets.
+---
 
-Input custom sonar readings to classify as Mine or Rock.
+## 🛠️ Technologies Used  
+- Python  
+- NumPy  
+- Pandas  
+- Scikit-Learn  
 
-📊 Results
+---
 
-Prints accuracy scores for training and test sets.
-
-Allows user-defined input for real-time predictions.
-
-🏆 Applications
-
-Sonar signal analysis
-
-Defense & naval applications
-
-Submarine detection systems
+## 🚀 How to Run  
+1. Clone this repository:  
+   ```bash
+   git clone https://github.com/your-username/rock-vs-mine.git
+   cd rock-vs-mine
